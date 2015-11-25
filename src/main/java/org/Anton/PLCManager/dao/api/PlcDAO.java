@@ -1,7 +1,7 @@
-package org.suda.customerMgr.dao.api;
+package org.Anton.PLCManager.dao.api;
 
 
-import org.suda.customerMgr.domain.Domain;
+import org.Anton.PLCManager.domain.Domain;
 
 import java.util.List;
 

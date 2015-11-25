@@ -1,11 +1,11 @@
-package org.suda.customerMgr.service;
+package org.Anton.PLCManager.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import org.suda.customerMgr.dao.api.PlcDAO;
-import org.suda.customerMgr.domain.Domain;
-import org.suda.customerMgr.service.api.PlcService;
+import org.Anton.PLCManager.dao.api.PlcDAO;
+import org.Anton.PLCManager.domain.Domain;
+import org.Anton.PLCManager.service.api.PlcService;
 
 import java.util.List;
 

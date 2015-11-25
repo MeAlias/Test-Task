@@ -1,4 +1,4 @@
-package org.suda.customerMgr.dao;
+package org.Anton.PLCManager.dao;
 
 import org.hibernate.SessionFactory;
 import org.hibernate.classic.Session;
@@ -6,8 +6,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
-import org.suda.customerMgr.dao.api.PlcDAO;
-import org.suda.customerMgr.domain.Domain;
+import org.Anton.PLCManager.dao.api.PlcDAO;
+import org.Anton.PLCManager.domain.Domain;
 
 import java.util.List;
 

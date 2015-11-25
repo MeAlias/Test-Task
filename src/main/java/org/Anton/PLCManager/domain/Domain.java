@@ -1,4 +1,4 @@
-package org.suda.customerMgr.domain;
+package org.Anton.PLCManager.domain;
 
 import javax.persistence.*;
 

@@ -1,6 +1,6 @@
-package org.suda.customerMgr.service.api;
+package org.Anton.PLCManager.service.api;
 
-import org.suda.customerMgr.domain.Domain;
+import org.Anton.PLCManager.domain.Domain;
 
 import java.util.List;
 

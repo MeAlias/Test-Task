@@ -1,4 +1,4 @@
-package org.suda.customerMgr.controller;
+package org.Anton.PLCManager.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -7,9 +7,9 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.suda.customerMgr.domain.Domain;
+import org.Anton.PLCManager.domain.Domain;
 
-import org.suda.customerMgr.service.api.PlcService;
+import org.Anton.PLCManager.service.api.PlcService;
 
 import javax.validation.Valid;
 import java.util.Map;

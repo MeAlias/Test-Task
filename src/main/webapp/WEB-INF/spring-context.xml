@@ -12,7 +12,7 @@
 		http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
     <context:annotation-config/>
-    <context:component-scan base-package="org.suda.customerMgr"/>
+    <context:component-scan base-package="org.Anton.PLCManager"/>
     <mvc:annotation-driven/>
     <mvc:resources mapping="/resources/**" location="resources/"/>
     <mvc:view-controller path="/" view-name="home"/>
@@ -40,7 +40,7 @@
         <property name="dataSource" ref="dataSource"/>
         <property name="annotatedClasses">
             <list>
-                <value>org.suda.customerMgr.domain.Domain</value>
+                <value>org.Anton.PLCManager.domain.Domain</value>
             </list>
         </property>
         <property name="hibernateProperties">
